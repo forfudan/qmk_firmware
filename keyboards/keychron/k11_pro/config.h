@@ -16,6 +16,10 @@
 
 #pragma once
 
+#define TAPPING_TERM 135
+#define HOLD_ON_OTHER_KEY_PRESS
+#define TAPPING_FORCE_HOLD
+
 /* Turn off effects when suspended */
 #define RGB_DISABLE_WHEN_USB_SUSPENDED
 #define LED_DISABLE_WHEN_USB_SUSPENDED
