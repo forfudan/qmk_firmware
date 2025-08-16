@@ -1,4 +1,6 @@
-cd /c/Users/zhuyu/qmk_firmware_normal/keyboards/preonic/keymaps/forfudan
+If QMK toolbox does not work, install Zadig and reinstall the driver.
+https://docs.qmk.fm/driver_installation_zadig
 
+cd /c/Users/zhuyu/qmk_firmware_normal/keyboards/preonic/keymaps/forfudan
 qmk json2c ./forfudan_preonic.json -o keymap.c
 qmk compile -kb preonic/rev3_drop -km forfudan
